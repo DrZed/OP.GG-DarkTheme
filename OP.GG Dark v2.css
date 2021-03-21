@@ -1,0 +1,186 @@
+/* GLOBAL COLOR VARIABLES CHANGING THESE CHANGES ALL USAGES OF COLORS */
+:root {
+    --col-orange : #EB0;
+    --col-gold: #FC0;
+    --col-dgold: #EB0;
+    --col-red: #F00;
+    --col-dred: #A00;
+    --col-lose: #800;
+    --col-green: #0C0;
+    --col-dgreen: #090;
+    --col-win: #040;
+    --col-blue: #0EE;
+    --col-light: #CCC;
+    --col-dark: #123;
+    --col-sdark: #234;
+    --col-link: #0BB;
+    --col-input: #333;
+}
+
+
+/* DISABLE OP.GG ADS */
+.adsbygoogle {
+    display: none !important;
+}
+.opscore-banner {
+    visibility: hidden;
+    margin-top: 0px;
+    border: 0px solid #cdd2d2;
+    size: 0px;
+}
+
+/*   SET BACKGROUND COLOR TO DARK COLOR VARIABLE  | THE NOT EXCLUDES PFP TO AVOID NO IMAGE  */
+* :not(div.Face > div > div) {
+    background-color: var(--col-dark) !important;
+}
+
+/*   REPLACE OP.GG COLOR TAGS WITH RESPECTIVE VARIABLES  */
+.red {
+    color:var(--col-red) !important;
+}
+
+.orange {
+    color:var(--col-orange) !important;
+}
+
+.green {
+    color:var(--col-green) !important;
+}
+
+/*   SET COMMON TEXT TARGETS TO LIGHT COLOR VARIABLE  */
+.title, div *, .normal, .Name, .WonLose, .Summoner, .SummonerName a, .SummonerName {
+    color:var(--col-light) !important;
+}
+
+.text, g.highcharts-axis-labels > text {
+    color:var(--col-light) !important;
+    fill:var(--col-light) !important;
+}
+
+/*   KDA AND THE LIKE COLOR VARIABLES  */
+.KDA {
+    color:var(--col-gold) !important;
+}
+
+.Kill {
+   color:var(--col-green) !important;
+    padding: 2px !important;
+}
+
+.Death {
+    color: var(--col-red) !important;
+    padding: 2px !important;
+}
+
+.Assist {
+    color:var(--col-blue) !important;
+    padding: 2px !important;
+}
+
+.WinRatio, .KDARatio, .WinRatioTitle {
+    color: var(--col-gold) !important;
+}
+
+/*   SET LINK COLOR  */
+a {
+    color: var(--col-link) !important;
+}
+
+#SummonerRefreshButton {
+    background-color: var(--col-sdark) !important;
+    border-color:var(--col-green) !important;
+}
+
+/*   SETTING VARIABLE ELEMENTS COLOR PALLETES  */
+.ContentWrap, .multi2 *, .ButtonBox, .Header, li, ul, td, span {
+    background-color: var(--col-dark) !important;
+    color :var(--col-light) !important;
+    fill: var(--col-light) !important;
+}
+
+textarea {
+    background-color:var(--col-input) !important;
+    color :var(--col-light) !important;
+    fill:var(--col-light) !important;
+    border-color:var(--col-dark) !important;
+}
+
+.CKRate, .CKRate span {
+    color: var(--col-red) !important;
+}
+
+
+b {
+    color: var(--col-blue) !important;
+}
+
+/*   TEAM CONTRIBUTION SCORE BADGES  */
+.Badge {
+    background-color: var(--col-dark) !important;
+    color:var(--col-light) !important;
+}
+
+/*   MULTIKILL BADGES  */
+.MultiKill .Kill {
+    background-color: var(--col-dark) !important;
+    color:var(--col-light) !important;
+    border: solid 1px var(--col-red) !important;
+}
+
+/*   OP>GG TEAM CONTRIBUTION HONOR BADGES  */
+.MVP, .ACE {
+    background-color: var(--col-dark) !important;
+    color:var(--col-gold) !important;
+    border: solid 1px var(--col-red) !important;
+}
+
+.tabHeader * {
+    background-color: var(--col-dark) !important;
+    color:var(--col-gold) !important;
+    fill:var(--col-light) !important;
+}
+
+div.GameDetail > div > div.MatchDetailHeader > ul * {
+    background-color: var(--col-dark) !important;
+    color:var(--col-gold) !important;
+    fill:var(--col-light) !important;
+}
+/* GRAPH COLOR FIXES */
+.win--team {
+    background-color: var(--col-green) !important;
+}
+
+.lose--team {
+    background-color: var(--col-red) !important;
+}
+
+.bar-graph .win {
+    background-color: var(--col-dgreen) !important;
+}
+
+.bar-graph .base {
+    background-color: var(--col-dred) !important;
+}
+
+.prev-seasons button, .prev-seasons button strong {
+    background-color: var(--col-dgold) !important;
+    color : var(--col-dark) !important;
+}
+
+/* WIN / LOSS COLORIZING OF MATCH HISTORY */
+.GameItem.Lose, .GameItem.Lose > * ,.GameItem.Lose > * > *, .GameItem.Lose > * > * > * , .GameItem.Lose > * > * > * > *, .GameItem.Lose > * > * > * > * > *, .GameItem.Lose > * > * > * > * > * > * {
+    background-color: var(--col-lose) !important;
+    border-color: var(--col-red) !important;
+}
+.GameItem.Win, .GameItem.Win > *, .GameItem.Win > * > *, .GameItem.Win > * > * > * , .GameItem.Win > * > * > * > *, .GameItem.Win > * > * > * > * > *, .GameItem.Win > * > * > * > * > * > *   {
+    background-color: var(--col-win) !important;
+    border-color: var(--col-green) !important;
+}
+
+.tabItem.MatchDetailContent-overview > * > * {
+    background-color: var(--col-dark) !important;
+}
+
+.Team > ul > li > div.Progress > div {
+    background-color: var(--col-dgreen) !important;
+}
