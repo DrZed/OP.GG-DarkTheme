@@ -32,7 +32,7 @@
 
 /*   SET BACKGROUND COLOR TO DARK COLOR VARIABLE  | THE NOT EXCLUDES PFP TO AVOID NO IMAGE  */
 * :not(div.Face > div > div, #GameAverageStatsBox-summary > div.Box > table > tbody > tr > td.Summary > div *) {
-    background-color: var(--col-dark) !important;
+    background-color: var(--col-dark);
 }
 
 /*   REPLACE OP.GG COLOR TAGS WITH RESPECTIVE VARIABLES  */
@@ -93,18 +93,12 @@ a {
 }
 
 /*   SETTING VARIABLE ELEMENTS COLOR PALLETES  */
-.ContentWrap, .multi2 *, .ButtonBox, .Header, li, ul, td, span {
+.ContentWrap, .ButtonBox, .Header, li, ul, td, span {
     background-color: var(--col-dark) !important;
     color :var(--col-light) !important;
     fill: var(--col-light) !important;
 }
 
-textarea {
-    background-color:var(--col-input) !important;
-    color :var(--col-light) !important;
-    fill:var(--col-light) !important;
-    border-color:var(--col-dark) !important;
-}
 
 .CKRate, .CKRate span {
     color: var(--col-red) !important;
@@ -146,6 +140,7 @@ div.GameDetail > div > div.MatchDetailHeader > ul * {
     color:var(--col-gold) !important;
     fill:var(--col-light) !important;
 }
+
 /* GRAPH COLOR FIXES */
 .win--team {
     background-color: var(--col-green) !important;
@@ -163,10 +158,6 @@ div.GameDetail > div > div.MatchDetailHeader > ul * {
     background-color: var(--col-dred) !important;
 }
 
-.prev-seasons button, .prev-seasons button strong {
-    background-color: var(--col-dgold) !important;
-    color : var(--col-dark) !important;
-}
 
 /* WIN / LOSS COLORIZING OF MATCH HISTORY */
 .GameItem.Lose, .GameItem.Lose > * ,.GameItem.Lose > * > *, .GameItem.Lose > * > * > * , .GameItem.Lose > * > * > * > *, .GameItem.Lose > * > * > * > * > *, .GameItem.Lose > * > * > * > * > * > * {
@@ -195,3 +186,16 @@ ul.menu > * {
     border-radius: 4px;
     padding: 8px;
 }
+
+textarea {
+    background-color:var(--col-input) !important;
+    color :var(--col-light) !important;
+    fill:var(--col-light) !important;
+    border-color:var(--col-dark) !important;
+}
+
+.prev-seasons button, .prev-seasons button strong {
+    background-color: var(--col-dgold) !important;
+    color : var(--col-dark) !important;
+}
+
