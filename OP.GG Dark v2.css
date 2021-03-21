@@ -5,10 +5,10 @@
     --col-dgold: #EB0; /* COLOR FOR DARK GOLD (USED FOR PREVIOUS SEASON BADGES) */
     --col-red: #F00; /* COLOR FOR RED */
     --col-dred: #A00; /* COLOR FOR DARK RED */
-    --col-lose: #400; /* COLOR FOR LOSS BACKGROUND */
+    --col-lose: #200; /* COLOR FOR LOSS BACKGROUND */
     --col-green: #0C0; /* COLOR FOR GREEN */
     --col-dgreen: #090; /* COLOR FOR BAR GRAPHS */
-    --col-win: #040; /* COLOR FOR WIN BACKGROUND */
+    --col-win: #020; /* COLOR FOR WIN BACKGROUND */
     --col-blue: #0EE; /* COLOR FOR ENHANCED BLINDNESS */
     --col-light: #CCC;  /* COLOR FOR COMMON TEXT */
     --col-dark: #123;  /* COLOR FOR BACKGROUND */
@@ -162,11 +162,11 @@ div.GameDetail > div > div.MatchDetailHeader > ul * {
 /* WIN / LOSS COLORIZING OF MATCH HISTORY */
 .GameItem.Lose, .GameItem.Lose > * ,.GameItem.Lose > * > *, .GameItem.Lose > * > * > * , .GameItem.Lose > * > * > * > *, .GameItem.Lose > * > * > * > * > *, .GameItem.Lose > * > * > * > * > * > * {
     background-color: var(--col-lose) !important;
-    border-color: var(--col-red) !important;
+    border-color: var(--col-dred) !important;
 }
 .GameItem.Win, .GameItem.Win > *, .GameItem.Win > * > *, .GameItem.Win > * > * > * , .GameItem.Win > * > * > * > *, .GameItem.Win > * > * > * > * > *, .GameItem.Win > * > * > * > * > * > *   {
     background-color: var(--col-win) !important;
-    border-color: var(--col-green) !important;
+    border-color: var(--col-dgreen) !important;
 }
 
 .tabItem.MatchDetailContent-overview > * > * {
@@ -199,3 +199,6 @@ textarea {
     color : var(--col-dark) !important;
 }
 
+.WinRatio.red {
+    color : var(--col-green) !important;
+}
