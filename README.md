@@ -12,7 +12,7 @@ Use a userstyles plugin like the one I use **Stylus**.
 > To import for op.gg, install Stylus (or other userstyles plugin)
 > Goto op.gg, and click the plugin icon in plugin container.
 > Click "op.gg" under the "Write style for:"
-> Only click when op.gg is highlighted in the url listed "<ins>na.**op.gg**/thisURL<ins>"
+> Only click when op.gg is highlighted in the url listed "<ins>na.**op.gg**/thisURL</ins>"
 > Copy .css code from my github and paste into the window, overwrite and save.
 
 
