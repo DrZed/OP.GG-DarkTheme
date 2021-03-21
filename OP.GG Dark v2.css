@@ -15,6 +15,7 @@
     --col-sdark: #234;
     --col-link: #0BB;
     --col-input: #333;
+    --col-bord: #555;
 }
 
 
@@ -30,7 +31,7 @@
 }
 
 /*   SET BACKGROUND COLOR TO DARK COLOR VARIABLE  | THE NOT EXCLUDES PFP TO AVOID NO IMAGE  */
-* :not(div.Face > div > div) {
+* :not(div.Face > div > div, #GameAverageStatsBox-summary > div.Box > table > tbody > tr > td.Summary > div *) {
     background-color: var(--col-dark) !important;
 }
 
@@ -77,7 +78,7 @@
     padding: 2px !important;
 }
 
-.WinRatio, .KDARatio, .WinRatioTitle {
+.WinRatio, .KDARatio, .WinRatioTitle, .WinRatioTitle span * {
     color: var(--col-gold) !important;
 }
 
@@ -183,4 +184,14 @@ div.GameDetail > div > div.MatchDetailHeader > ul * {
 
 .Team > ul > li > div.Progress > div {
     background-color: var(--col-dgreen) !important;
+}
+
+.Menu, .l-menu {
+    border-bottom: 1px solid var(--col-dark) !important;
+}
+
+ul.menu > * {
+    border: ridge 3px var(--col-bord) !important;
+    border-radius: 4px;
+    padding: 8px;
 }
