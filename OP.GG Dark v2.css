@@ -1,21 +1,21 @@
 /* GLOBAL COLOR VARIABLES CHANGING THESE CHANGES ALL USAGES OF COLORS */
 :root {
-    --col-orange : #EB0;
-    --col-gold: #FC0;
-    --col-dgold: #EB0;
-    --col-red: #F00;
-    --col-dred: #A00;
-    --col-lose: #400;
-    --col-green: #0C0;
-    --col-dgreen: #090;
-    --col-win: #040;
-    --col-blue: #0EE;
-    --col-light: #CCC;
-    --col-dark: #123;
-    --col-sdark: #234;
-    --col-link: #0BB;
-    --col-input: #333;
-    --col-bord: #555;
+    --col-orange : #EB0; /* COLOR FOR ORANGE */
+    --col-gold: #FC0; /* COLOR FOR KDA AND OTHER */
+    --col-dgold: #EB0; /* COLOR FOR DARK GOLD (USED FOR PREVIOUS SEASON BADGES) */
+    --col-red: #F00; /* COLOR FOR RED */
+    --col-dred: #A00; /* COLOR FOR DARK RED */
+    --col-lose: #400; /* COLOR FOR LOSS BACKGROUND */
+    --col-green: #0C0; /* COLOR FOR GREEN */
+    --col-dgreen: #090; /* COLOR FOR BAR GRAPHS */
+    --col-win: #040; /* COLOR FOR WIN BACKGROUND */
+    --col-blue: #0EE; /* COLOR FOR ENHANCED BLINDNESS */
+    --col-light: #CCC;  /* COLOR FOR COMMON TEXT */
+    --col-dark: #123;  /* COLOR FOR BACKGROUND */
+    --col-sdark: #234;  /* COLOR FOR LESS DARK BACKGROUND */
+    --col-link: #0BB; /* COLOR FOR LINKS TEXT */
+    --col-input: #333; /* COLOR FOR INPUT BOX FOR MULTISEARCH PAGE */
+    --col-bord: #555; /* COLOR FOR NAVIGATION TAB BORDER */
 }
 
 
