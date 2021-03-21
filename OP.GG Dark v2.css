@@ -202,3 +202,8 @@ textarea {
 .WinRatio.red {
     color : var(--col-green) !important;
 }
+
+.PastRank > ul > li, .PastRank > ul > li > b {
+    background-color: var(--col-dgold) !important;
+    color : var(--col-dark) !important;
+}
