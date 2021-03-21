@@ -1,0 +1,494 @@
+body, #SummonerLayoutContent > div.tabItem.Content.SummonerLayoutContent > div.SideContent > div.TierBox.Box > div, #SummonerLayoutContent > div.tabItem.Content.SummonerLayoutContent.summonerLayout-summary > div.SideContent > div.sub-tier
+  {
+    background-color: #111 !important;
+    color: #7F8C8D !important;
+  }
+
+  div
+  {
+    color: #7F8C8D !important;
+  }
+
+  .Box
+  {
+    background: #000 !important;
+    border: 1px solid #333 !important;
+    box-shadow: none !important;
+  }
+    
+    
+    /* Summoner */
+  .SummonerLayout > .Header > .Profile > .Information > .Name
+  {
+    color: #666 !important;
+  }
+
+  .LayoutWrap > .ContentWrap
+  {
+    border-bottom: 1px solid #333 !important;
+    background: #140512 !important;
+  }
+
+  .SummonerLayout > .ContentWrap
+  {
+    background-color: #111 !important;
+    color: #7F8C8D !important;
+  }
+
+  #highcharts-0 > svg > rect
+  {
+    fill: #070707 !important;
+  }
+
+  .Button.SemiRound.White
+  {
+    border: 1px solid #140512 !important;
+    border-bottom: 1px solid #222 !important;
+    background: #111 !important;
+    color: #888 !important;
+  }
+
+  .SummonerLayout > .Menu
+  {
+    border-bottom: 1px solid #222 !important;
+  }
+
+  .SummonerLayout > .Menu > .MenuList > .Item.active > a
+  {
+    border: 1px solid #222 !important;
+    background: #181818 !important;
+    color: #ccc !important;
+  }
+
+  .SummonerLayout > .Menu > .MenuList > .Item > a
+  {
+    border: 1px solid #140512 !important;
+    border-bottom: 1px solid #222 !important;
+    background: #111 !important;
+    color: #777 !important;
+  }
+    
+    /* Summoner > Summary Tab */
+    /* Summoner > Summary Tab > Left sidebar */
+
+  .Box > .Title + .Content, .Box > .Navigation + .Content, .Box > .Tab + .Content,
+    .ChampionWinRatioBox, .PositionWinRatioBox
+  {
+    background: #000 !important;
+    border-bottom: 1px solid #222 !important;
+  }
+
+  .SummonersMostGameTable > .Header > .Row > .HeaderCell
+  {
+    background-color: #111 !important;
+    border-bottom: 1px solid #222 !important;
+  }
+
+  .ChampionBox
+  {
+    border-bottom: 1px solid #222 !important;
+  }
+
+  .WinRatioGraph > .Graph > .Fill.Left
+  {
+    background: #051320 !important;
+    border: 1px solid #071E33 !important;
+  }
+
+  .WinRatioGraph > .Graph > .Fill.Right
+  {
+    background: #200908 !important;
+    border: 1px solid #300E0D !important;
+  }
+
+    /* Summoner > Summary Tab > Main content */
+    
+  .GameAverageStats
+  {
+    background-color: #111 !important;
+    color: #7F8C8D !important;
+  }
+
+  .GameItem > .Card > .Title
+  {
+    border-bottom: 1px solid #333 !important;
+  }
+
+  .GameItem > .Card > .Title > .Right > .Actions > .Action
+  {
+    border-color: #333 !important;
+  }
+
+  .GameItem.Win, .GameItem.Win > .Card
+  {
+        /* background-color: #11252F !important; */
+    background-color: #0c2739 !important;
+    border-color: #07141d !important;
+  }
+
+  .GameItem.Lose, .GameItem.Lose > .Card
+  {
+        /* background-color: #2A1312 !important; */
+    background-color: #2A0D0C !important;
+    border-color: #1d0909 !important;
+  }
+
+  .GameDetailTable.Result-WIN
+  {
+    background-color: #090F12 !important;
+  }
+
+  .GameDetailTable.Result-LOSE
+  {
+    background-color: #170E0E !important;
+  }
+    
+    /* Summoner > Summary Tab > Right sidebar  */
+    
+  .LayoutWrap > .ContentWrap > .SideBarWrap
+  {
+    background: #222 !important;
+    border-left: none !important;
+  }
+    
+    
+    /* Summoner > Champions tab */
+    
+  .Box > .Tab > .TabList > .Item
+  {
+    background: #000 !important;
+    border: #333 !important;
+  }
+
+  .ChampionStatsTable > .Body > .Row.TopRanker
+  {
+    background: #000 !important;
+  }
+    
+    
+    
+    /* Disable ads */
+    
+  .adsbygoogle
+  {
+    display: none !important;
+  }
+    
+    
+    /* Old */
+    
+  div.SummonerHeader > .SummonerHeaderInfoArea
+  {
+    background: #222 !important;
+    border-color: #444 !important;
+  }
+
+  div.SummonerHeader > .SummonerHeaderInfoArea > .SummonerHeaderColumn > a
+  {
+    text-shadow: 0px 1px #000 !important;
+  }
+
+  .nBox .nBoxContent
+  {
+    background: #222 !important;
+  }
+
+  .nBox .nBoxHeader
+  {
+    background: #222 !important;
+  }
+
+  .AverageGameStats .AverageGameStatsBox
+  {
+    background-color: #222 !important;
+  }
+
+  .AverageGameStats .AverageGameStatsBox > .Title
+  {
+    background: #222 !important;
+    text-shadow: 0px 1px #000 !important;
+  }
+
+  .AverageGameStats .AverageGameStatsBox > .Graph > .GraphInnerWrap > .WinRatioTitle
+  {
+    text-shadow: 0px 1px #000 !important;
+  }
+
+  .AverageGameStats .AverageGameStatsBox > .KDA
+  {
+    text-shadow: 0px 1px #333 !important;
+  }
+
+  .SummonerRatingMedium > .TierRankInfo > .WinLose > .winratio
+  {
+    color: rgba(76, 117, 156, 1) !important;
+  }
+
+  .GameBox.game-win
+  {
+    background: rgba(34, 59, 75, 1) !important;
+  }
+
+  .GameBox.game-lose
+  {
+    background: rgba(63, 39, 37, 1) !important;
+  }
+
+  .GameBox > .GameSimpleStats > .ItemsTrinket > .caption
+  {
+    text-shadow: 0px 1px #111 !important;
+  }
+
+#SummonerLayoutContent > div.tabItem.Content.SummonerLayoutContent.summonerLayout-summary > div.RealContent > div > div.Content > div.GameItemList > div > div > div.Content > div.KDA > div.MultiKill > span, #SummonerLayoutContent > div.tabItem.Content.SummonerLayoutContent.summonerLayout-summary > div.RealContent > div > div.Content > div.GameItemList > div > div > div.Content > div.KDA > div.Badge > span, #GameAverageStatsBox-matches > div.Box > table > tbody > tr > td.PositionStats > ul.Content > li > div.PositionStatContent > span.WinRatio > span, #GameAverageStatsBox-matches > div.Box > table > tbody > tr > td.PositionStats > ul.Content > li > div.PositionStatContent > span.WinRatio, #GameAverageStatsBox-matches > div.Box > table > tbody > tr > td.KDA > div.KDARatio > span.KDARatio {
+    color: #EEE;
+    
+}
+
+body > div.l-wrap.l-wrap--summoner > div.l-container > div > div > div.Header > div.PastRank > ul > li {
+    color: #EFF;
+    background-color: #123;
+    border-color: #456;
+}
+
+#SummonerLayoutContent > div.tabItem.Content.SummonerLayoutContent.summonerLayout-summary > div.RealContent > div > div.Content > div.GameItemList > div > div.GameItem.Lose > * > *, #SummonerLayoutContent > div.tabItem.Content.SummonerLayoutContent.summonerLayout-summary > div.RealContent > div > div.Content > div.GameItemList > div > div.GameItem.Lose > * > * > * > * > * > * {
+    background-color: #500 !important;
+    border-color: #800 !important;
+    color: #FFF !important;
+}
+
+#SummonerLayoutContent > div.tabItem.Content.SummonerLayoutContent.summonerLayout-summary > div.RealContent > div > div.Content > div.GameItemList > div > div.GameItem.Win > * > * {
+    background-color: #005 !important;
+    border-color: #009 !important;
+}
+
+#SummonerLayoutContent > div.tabItem.Content.SummonerLayoutContent.summonerLayout-summary > div.RealContent > div > div.Content > div.GameItemList > div > div > div.Content > div.GameStats > div.GameLength {
+    color : #123;
+}
+
+#SummonerLayoutContent > div.tabItem.Content.SummonerLayoutContent.summonerLayout-summary > div.RealContent > div > div.Content > div.GameItemList > div > div > div.Content > div.GameStats > div {
+    color: #CCC !important;
+}
+
+#SummonerLayoutContent > div.tabItem.Content.SummonerLayoutContent.summonerLayout-summary > div.RealContent > div > div.Content > div.GameItemList > div > div > div.Content > div.KDA > div.KDA {
+    color: #CCC !important;
+}
+
+#SummonerLayoutContent > div.tabItem.Content.SummonerLayoutContent.summonerLayout-summary > div.RealContent > div > div.Content > div.GameItemList > div > div > div.Content > div.KDA > div.KDA > span.Kill {
+    color: #AFA !important;
+}
+
+#SummonerLayoutContent > div.tabItem.Content.SummonerLayoutContent.summonerLayout-summary > div.RealContent > div > div.Content > div.GameItemList > div > div > div.Content > div.KDA > div.KDA > span.Death {
+    color: #F00 !important;
+}
+
+
+#SummonerLayoutContent > div.tabItem.Content.SummonerLayoutContent.summonerLayout-summary > div.RealContent > div > div.Content > div.GameItemList > div > div > div.Content > div.KDA > div.KDA > span.Assist {
+    color: #ACC !important;
+}
+
+#SummonerLayoutContent > div.tabItem.Content.SummonerLayoutContent.summonerLayout-summary > div.RealContent > div > div.Content > div.GameItemList > div > div > div.Content > div.KDA > div.KDARatio > span {
+    color: #DFF !important;
+}
+
+#SummonerLayoutContent > div.tabItem.Content.SummonerLayoutContent.summonerLayout-summary > div.RealContent > div > div.Content > div.GameItemList > div > div > div.Content > div.KDA > div.KDARatio {
+    color: #CCC !important;
+}
+
+#SummonerLayoutContent > div.tabItem.Content.SummonerLayoutContent.summonerLayout-summary > div.RealContent > div > div.Content > div.GameItemList > div > div > div.Content > div.Stats > * {
+    color: #CDD !important;
+}
+
+#SummonerLayoutContent > div.tabItem.Content.SummonerLayoutContent.summonerLayout-summary > div.RealContent > div > div.Content > div.GameItemList > div> div > div.Content > div.Stats > div.MMR > *, #SummonerLayoutContent > div.tabItem.Content.SummonerLayoutContent.summonerLayout-summary > div.RealContent > div > div.Content > div.GameItemList > div > div > div.Content > div.Items > div.Trinket, #SummonerLayoutContent > div.tabItem.Content.SummonerLayoutContent.summonerLayout-summary > div.RealContent > div > div.Content > div.GameItemList > div > div > div.Content > div.GameSettingInfo > div.ChampionName {
+    color: #7EE !important;
+}
+
+#SummonerLayoutContent > div.tabItem.Content.SummonerLayoutContent.summonerLayout-summary > div.RealContent > div > div.Content > div.GameItemList > div > div > div.Content > div.FollowPlayers.Names > div > * > * {
+    color: #FFF !important;
+    
+}
+
+#SummonerLayoutContent > div.tabItem.Content.SummonerLayoutContent.summonerLayout-summary > div.RealContent > div > div.Content > div.GameItemList > div > div > div.Content > div.FollowPlayers.Names > div > div.Summoner.Requester > * > * {
+    color: #99F !important;
+    
+}
+
+#SummonerLayoutContent > div.tabItem.Content.SummonerLayoutContent.summonerLayout-summary > div.RealContent > div > div.Content > div.opscore-banner {
+    visibility: hidden;
+    margin-top: 0px;
+    border: 0px solid #cdd2d2;
+    size: 0px;
+}
+
+#SummonerLayoutContent > div.tabItem.Content.SummonerLayoutContent.summonerLayout-summary > div.RealContent > div > div.Content > div.GameItemList > div > div > div.GameDetail > div > div.MatchDetailContent.tabItems > div.Content.tabItem > div > table > thead > tr > *  {
+    background-color: #123 !important;
+    color: #FFF !important;
+}
+#SummonerLayoutContent > div.tabItem.Content.SummonerLayoutContent.summonerLayout-summary > div.RealContent > div > div.Content > div.GameItemList > div > div > div.GameDetail > div > div.MatchDetailContent.tabItems > div.Content.tabItem.MatchDetailContent-overview > div > table.GameDetailTable > tbody > tr > td.OPScore.Cell > div.OPScore.Badge {
+    background-color: #456 !important;
+    color: #FFF !important;
+}
+
+
+#SummonerLayoutContent > div.tabItem.Content.SummonerLayoutContent.summonerLayout-summary > div.RealContent > div > div.Content > div.GameItemList > div > div > div.GameDetail > div > div.MatchDetailContent.tabItems > div.Content.tabItem.MatchDetailContent-overview > div > table.GameDetailTable > tbody > tr > *,
+#SummonerLayoutContent > div.tabItem.Content.SummonerLayoutContent.summonerLayout-summary > div.RealContent > div > div.Content > div.GameItemList > div > div > div.GameDetail > div > div.MatchDetailContent.tabItems > div.Content.tabItem.MatchDetailContent-overview > div > table.GameDetailTable > tbody > tr > * > * {
+    background-color: #123 !important;
+    color: #FFF !important;
+}
+
+span.Text {
+    color: #FFF !important;
+}
+
+body > div.l-wrap.l-wrap--summoner > div.l-container > div > div > div.Header > div.Profile > div *,
+#SummonerLayoutContent > div.tabItem.Content.SummonerLayoutContent.summonerLayout-summary > div.SideContent > div.TierBox.Box > div > div.TierRankInfo *{
+    color: #FFF !important;
+}
+
+#SummonerLayoutContent > div.tabItem.Content.SummonerLayoutContent.summonerLayout-summary > div.SideContent > div.TierBox.Box > div > div.TierRankInfo > div.TierInfo > span.WinLose > span.wins {
+    color: #0F0 !important;
+}
+
+#SummonerLayoutContent > div.tabItem.Content.SummonerLayoutContent.summonerLayout-summary > div.SideContent > div.TierBox.Box > div > div.TierRankInfo > div.TierInfo > span.WinLose > span.losses {
+    color: #F00 !important;
+}
+
+
+#SummonerLayoutContent > div.tabItem.Content.SummonerLayoutContent.summonerLayout-summary > div.SideContent > div.TierBox.Box > div > div.TierRankInfo > div.TierInfo > span.LeaguePoints {
+    color: #8FF !important;
+}
+
+#SummonerLayoutContent > div.tabItem.Content.SummonerLayoutContent.summonerLayout-summary > div.SideContent > div.sub-tier > * > * {
+    color: #FFF !important;
+}
+
+#SummonerLayoutContent > div.tabItem.Content.SummonerLayoutContent.summonerLayout-summary > div.SideContent > div.Box.tabWrap.stats-box._recognized > div.Content.tabItems > div.MostChampionContent.tabItem.overview-stats--all > div > div > div.Played > div.Title {
+    color: #FFF !important;
+}
+
+#GameAverageStatsBox-summary > div.Box > table > tbody > tr > td.MostChampion > ul > li > div.Content > * {
+    color: #FFF !important;
+    
+}
+
+b.red {
+    color: #F00 !important;
+}
+
+td, a, li.Item * {
+    color: #FFF !important;
+}
+
+
+ 
+div.ChampionName {
+    color: #F0F !important;
+}
+
+div.ChampionMinionKill {
+    color: #5CA !important;
+}
+
+div.KDARatio, span.KDARatio, div.KDA, span.KDA {
+    color: #ECA !important;
+}
+
+span.Kill {
+   color: #0E0 !important;
+    padding: 2px !important;
+}
+
+span.Death {
+    color: #F55 !important;
+    padding: 2px !important;
+}
+
+span.Assist {
+    color: #0EE !important;
+    padding: 2px !important;
+}
+div.WinRatio.red {
+    color: #0E0 !important;
+}
+div.WinRatio.normal {
+    color: #0CC !important;
+}
+
+div.Name, div.WonLose, div.WinRatioTitle {
+    color: #FFF !important;
+}
+
+#SummonerLayoutContent > div.tabItem.Content.SummonerLayoutContent.summonerLayout-summary > div.SideContent > div.RecentWinRatio.Box > div.Content > div > div.WinRatio {
+    color: #FFF !important;
+}
+
+#SummonerLayoutContent > div.tabItem.Content.SummonerLayoutContent.summonerLayout-summary > div.SideContent > div.RecentWinRatio.Box > div.Content > div > div.RatioGraph > div > div > * { 
+    color: #FFF !important;
+}
+#SummonerLayoutContent > div.tabItem.Content.SummonerLayoutContent.summonerLayout-summary > div.SideContent > div.RecentWinRatio.Box > div.Content > div > div.RatioGraph > div > div > div.Fill.Left {
+    background: #33C !important;
+}
+#SummonerLayoutContent > div.tabItem.Content.SummonerLayoutContent.summonerLayout-summary > div.SideContent > div.RecentWinRatio.Box > div.Content > div > div.RatioGraph > div > div > div.Fill.Right { 
+    background: #C00 !important;
+}
+
+div.OPScore.Badge.MVP, div.OPScore.Badge.ACE, span.MVP, span.ACE {
+    background-color: #000 !important;
+    color: #FF0 !important;
+    border: solid 1px #234 !important;
+}
+
+#SummonerLayoutContent > div.tabItem.Content.SummonerLayoutContent.summonerLayout-summary > div.SideContent > div.SummonersMostGame.Box > div.Content > table > tbody * {
+    background-color: #123 !important;
+    color: #fff !important;
+}
+
+div.MatchTeamAnalysisHeader *, div.MatchAnalysisListItemContent * , div.MatchAnalysisListItem *, div.MatchDetailMatchAnalysis *{
+    background-color: #123 !important;
+    color : #fff !important;
+}
+
+#right_match_team_analysis > div > ul > li > div > div > div.Team > ul > li > div.Progress > div  {
+    background: #05B !important;
+}
+div.tabWrap, ul.tabHeaders, ul.tabHeaders *, g.highcharts-axis-labels.text {
+    background-color: #123 !important;
+    color : #fff !important;
+}
+text, div.Time {
+    background-color: #123 !important;
+    color : #fff !important;
+    fill: #FFF !important;
+}
+
+#right_match_team_timeline > div > div.TimelineFilter > ul > li > label > span, input.checkbox {
+    background-color: #123 !important;
+    color : #fff !important;
+    fill: #FFF !important;
+}
+body > div.l-wrap.l-wrap--multi > header > div.opgg-header.opgg-header--gamg-fn > div > nav > div > div.navi__item.navi__item--default > span, body > div.l-wrap.l-wrap--multi > div.l-menu , body > div.l-wrap.l-wrap--multi > header > div.opgg-header.opgg-header--gamg-fn > div > nav > div > div.navi__item.navi__item--default, body > div.l-wrap.l-wrap--multi > header > div.opgg-header.opgg-header--gamg-fn > div > h1 > a {
+    background-color: #123 !important;
+    color : #fff !important;
+    fill: #FFF !important;
+}
+
+div.ContentWrap, div.multi2 *, div.ButtonBox, div.Header {
+    background-color: #123 !important;
+    color : #fff !important;
+    fill: #FFF !important;
+}
+textarea {
+    background-color: #333 !important;
+    color : #fff !important;
+    fill: #FFF !important;
+    border-color: #123;
+}
+
+body > div.l-wrap.l-wrap--multi > div.l-container > div.MultiSearchLayoutWrap > div > div.ContentWrap > div > div > ul > li > div.summoner-summary > div.graph > div > div > div {
+    background-color: #0A0 !important;
+}
+
+body > div.l-wrap.l-wrap--multi > div.l-container > div.MultiSearchLayoutWrap > div > div.ContentWrap > div > div > ul > li > div.prev-seasons > button,
+body > div.l-wrap.l-wrap--multi > div.l-container > div.MultiSearchLayoutWrap > div > div.ContentWrap > div > div > ul > li > div.prev-seasons > button.prev-seasons__btn > strong{ 
+    background-color: #CC0 !important;
+    color : #000 !important;
+}
